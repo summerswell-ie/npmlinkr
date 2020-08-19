@@ -1,6 +1,6 @@
-{
-  "name": "npmlinkr",
-  "version": "0.0.4",
+{  
+  "version": "0.0.5",
+  "name": "@summerswell-ie/npmlinkr",  
   "description": "npm link utility",
   "main": "./lib/index.js",
   "scripts": {
@@ -9,6 +9,8 @@
   "bin" : {
     "npmlinkr" : "./bin/npmlinkr.js"
   },
-  "author": "bvonfintel@cosoft.co.za",
-  "license": "ISC"
+  "author": "bernd@summerswell.ie",
+  "license": "ISC",
+  "repository" : "https://github.com/summerswell-ie/npmlinkr",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
